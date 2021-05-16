@@ -1,0 +1,81 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: $fontSizeBody;
+  color: $colorBody;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+
+  a {
+    color: $link_color;
+  }
+  a:hover {
+    color: $secondary_color;
+    text-decoration: none;
+  }
+  a.current {
+    color: $secondary_color;
+    text-decoration: none;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-family: $fontFamilyCambria;
+    font-size: $magicNumber * 1.5;
+    line-height: $magicNumber * 2;
+    margin: 0 0 $magicNumber 0;
+    padding: ($magicNumber * 0.8) 0 ($magicNumber * 0.2) 0; 
+  }
+  h2 {
+    font-size: 38px;
+  }
+  h3 {
+    font-size: 32px;
+  }
+  h4 {
+    font-size: 26px;
+  }
+
+  h5 {
+    font-size: 22px;
+  }
+  header {
+    .logo {
+      line-height: $magicNumber * 2;
+      a {
+        font-family: "Nothing You Could Do", cursive;
+        font-size: 26px;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .ingress {
+    font-size: 18px;
+    font-weight: bold;
+    p {
+      font-size: 16px;
+      line-height: $magicNumber;
+      margin: 0 0 $magicNumber 0;
+    }
+  }
+
+  ul,
+  ol {
+    font-size: 16px;
+    line-height: $magicNumber;
+    margin-bottom: $magicNumber;
+    padding: 0 0 0 $magicNumber;
+  }
+}
+
+.table tr th,
+.table tr td {
+  color: $colorBody;
+}
+ 

@@ -1,0 +1,22 @@
+.bottom_nav {
+    width: 100vw;
+    padding: 10px;
+    background: #FFFFFF;
+    display: table;
+    position:fixed;
+    bottom:0;
+    left:0;
+    z-index:99;
+
+    div  { 
+        display: table-cell;
+        text-align:center;
+    }
+
+    a { 
+        text-decoration: none;
+        font-size: 28px;
+        padding: 10px;   
+        color: $link_color;
+    }
+} 

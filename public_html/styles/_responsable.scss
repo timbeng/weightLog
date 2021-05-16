@@ -1,0 +1,15 @@
+.mobile {
+  display: inherit;
+}
+.desktop {
+  display: none;
+}
+
+@media (min-width: 700px) {
+  .mobile {
+    display: none;
+  }
+  .desktop {
+    display: inherit;
+  }
+}

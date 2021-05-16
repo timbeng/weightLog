@@ -1,0 +1,15 @@
+.main_content_wrapper {
+
+   
+@media (min-height: 700px) {
+    .login_wrapper {
+      padding-top: 80px;
+    }
+  }
+  
+  @media (min-height: 800px) {
+    .login_wrapper {
+      padding-top: 120px;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.main_content_wrapper {
+  .gymlog_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 5px 10px 5px 10px;
+  }
+}
+
+@media (min-width: 700px) {
+  .main_content_wrapper {
+    .gymlog_container {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: 200px 500px 1fr;
+    }
+  }
+}
+
+.program_container_wrapper {
+  width: 300px;
+  max-width: 100%;
+    // Create program
+  .program_container {
+    .session {
+      .exercise {
+      }
+    }
+  }
+}

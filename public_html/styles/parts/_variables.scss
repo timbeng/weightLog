@@ -1,0 +1,36 @@
+// Mixin itself
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+} 
+ 
+$fontSizeBody: 16px;
+$fontSizeH1: 2.375em;
+$fontSizeH2: 1.875em;
+$fontSizeH3: 1.375em;
+$fontSizeH4: 1.25em;
+$fontSizeH5: 1em;
+$fontSizeH6: 1em;
+$fontSizeSmall: 0.875em;
+$fontSizeSiteTitle: 3em;
+$fontSizeSearchH2: 1.25em;
+
+$colorBody: #333333 ;  
+$colorBody2: #333333;
+$colorBodyLighter: #666;
+$colorBodyLight: #999;
+ 
+$magicNumber: 24px;
+
+$fontFamilyHelvetica: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$fontFamilyCambria: Cambria, Georgia, Times, 'Times New Roman', serif;
+  
+// Color
+$site_background: #1a1a1c; 
+$link_color: #337ab7;
+$text_color: #333333;
+$secondary_color: #960909;
+  

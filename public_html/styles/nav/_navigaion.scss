@@ -1,0 +1,112 @@
+header {
+  .nav_wrapper {
+    nav {
+      display: none;
+    
+      .current {
+       color: #b76333;    
+      }
+    }
+  }
+}
+ 
+ 
+@media (max-width: 699px) {
+  header {
+    .nav_wrapper {  
+      width: 100%;
+      height: 100%;
+      margin: auto; 
+      clear: both; 
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: $site_background;
+      z-index:99;
+      overflow: auto;
+   
+      .close_mobile_nav_row {
+        width: 100%;
+        max-width: 1400px;
+        margin: auto;
+        display: grid;
+        clear: both;
+        grid-template-columns: 205px 1fr 50px 50px;
+   
+        .close_mobile_nav { 
+          display: block;
+          margin: 0 ;
+          font-size: $magicNumber * 1.5;
+          line-height: $magicNumber * 2; 
+          
+          a {
+            display: block;
+            padding: $magicNumber / 4; 
+            margin: 0;
+            text-align: center;
+          }
+        } 
+      }
+      nav {
+        display: block;
+        margin: 0 ;
+        font-size: $magicNumber;
+        line-height: $magicNumber * 2; 
+        
+        a {
+          display: block;
+          padding: $magicNumber / 4; 
+          margin: 0;
+          padding: 0 0 0 20px;
+        }
+
+        .logged_in {
+          padding: 10px 0 0 0 ;
+          margin: 10px 0 0 0 ;
+          border-top: solid 2px #b76333;
+        }
+      }
+    }
+  } 
+}
+
+
+@media (min-width: 700px) {
+  header {
+    .nav_wrapper { 
+      .close_mobile_nav_row {
+        display: none;
+      }
+      nav {
+        width: 400px;
+        display: block;
+        margin: 0 0 0 $magicNumber * 1;
+        line-height: $magicNumber * 3;
+
+        a {
+          padding: 5px;
+          margin: 0 0px 0 0;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 840px) {
+  header {
+    .nav_wrapper {
+      nav {
+        width: 570px;
+        display: block;
+        margin: 0 0 0 $magicNumber * 3;
+        line-height: $magicNumber * 3;
+
+        a {
+          padding: 10px;
+          margin: 0 10px 0 0;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+ 
+@import "_cookie.scss"; 
+
+.header_wrapper {
+  width: 100%; 
+}
+
+header { 
+  max-width:1400px;
+  margin: auto;
+  display: grid;
+  clear: both;
+  grid-template-columns: 205px 1fr 50px 50px;
+ 
+  .site-logo {
+    padding: 10px 5px 10px 5px;
+    line-height: $magicNumber * 2;
+    font-size: 26px;
+    font-family: "Nothing You Could Do", cursive;
+    text-decoration: none;
+  }
+ 
+  .show_user {
+    font-size: 30px;
+    text-align: center;
+    a {
+      display: block;
+      padding: 10px;
+    }
+  }
+
+  .show_nav {
+    font-size: 30px;
+    text-align: center;
+    a {
+      display: block;
+      padding: 10px;
+    }
+  }
+}
+
+.flash_message {
+  max-width: 1140px;
+  margin: auto;
+}
+
+@media (min-width: 330px) {
+  .header_wrapper {  
+    header { 
+      grid-template-columns: 230px 1fr 50px 50px;
+
+      .site-logo {
+        padding: 10px;
+        line-height: $magicNumber * 2;
+        font-size: 28px; 
+      }
+    }
+  }
+}
+
+@media (min-width: 700px) {
+  .header_wrapper {
+    header {
+      grid-template-columns: 230px 1fr 60px;
+
+      .show_nav {
+        display: none;
+      }
+    }
+  }
+}
+ 

@@ -1,0 +1,39 @@
+/*  COOKIES  */
+#cookie-wrap { 
+  color: #888; 
+  line-height: $magicNumber;
+  margin-bottom: $magicNumber ;
+  border: solid 1px #333;
+  padding: $magicNumber / 2; 
+ 
+  #cookie { 
+    max-width: 750px;
+    margin:auto;
+    display: grid;
+    grid-template-columns: 1fr ;
+    
+    .cookie-button-wrap { 
+      .btn { 
+        float: right;
+      }
+    }
+  } 
+} 
+
+  
+@media (min-width:440px){
+  
+  #cookie-wrap {
+    #cookie {
+      display: grid;
+      grid-template-columns: 1fr 122px;
+    
+      .cookie-button-wrap { 
+        .btn { 
+          float: left;
+        }
+      }
+    }
+  }
+
+} 

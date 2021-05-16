@@ -1,0 +1,69 @@
+.my_btn {
+  background: #006eb3;
+  background-image: -webkit-linear-gradient(top, #006eb3, #0d5b8f);
+  background-image: -moz-linear-gradient(top, #006eb3, #0d5b8f);
+  background-image: -ms-linear-gradient(top, #006eb3, #0d5b8f);
+  background-image: -o-linear-gradient(top, #006eb3, #0d5b8f);
+  background-image: linear-gradient(to bottom, #006eb3, #0d5b8f);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: serif;
+  color: #ffffff;
+  font-size: 16px;
+  padding: $magicNumber / 4 $magicNumber $magicNumber / 4 $magicNumber;
+  margin: $magicNumber / 4;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.my_btn:hover {
+  background: #02385c;
+  background-image: -webkit-linear-gradient(top, #02385c, #0a5c8f);
+  background-image: -moz-linear-gradient(top, #02385c, #0a5c8f);
+  background-image: -ms-linear-gradient(top, #02385c, #0a5c8f);
+  background-image: -o-linear-gradient(top, #02385c, #0a5c8f);
+  background-image: linear-gradient(to bottom, #02385c, #0a5c8f);
+  text-decoration: none;
+  color: #efefef;
+}
+
+.btn-primary {
+  background-color: #337ab7;
+}
+.btn-primary:hover {
+  background-color: rgb(39, 96, 146);
+}
+
+body {
+  .search_select {
+    color: #333333;
+    .b2b {
+      background-color: #f7f5ff;
+    }
+
+    .private {
+      background-color: #f8fff5;
+    }
+
+    .active {
+      color: #000000;
+      border: solid 1px #333;
+    }
+  }
+}
+
+.modal {
+  .modal-header {
+    display: grid;
+    grid-template-columns: 1fr 100px;
+
+    .modal-title {
+      padding: 0;
+    }
+  }
+}
+
+.table-striped tr:nth-child(even)  {
+  background: #333333;
+}

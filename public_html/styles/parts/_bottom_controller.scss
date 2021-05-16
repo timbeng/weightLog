@@ -1,0 +1,29 @@
+
+.bottom_controller_wrapper{
+    position: fixed;
+    bottom: 5px;
+    left: 5px;
+    width: calc(100% - 10px); 
+    display: grid;
+    grid-template-columns: 1fr 60px;
+ 
+    .search { 
+        display: grid;
+        grid-template-columns: 1fr 60px;
+          
+    } 
+    
+    .fa {
+        font-size: 28px;
+        padding: 5px 15px 5px 15px;
+        text-align:center;
+        margin:auto;
+    }
+
+    .subnav_bars {
+        float: right; 
+    }
+}
+
+
+ 

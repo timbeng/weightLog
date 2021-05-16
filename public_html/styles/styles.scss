@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Nothing+You+Could+Do");
+@import "parts/_variables.scss";
+@import "parts/_typography.scss";
+@import "parts/_forms.scss";   
+@import "_responsable.scss";  
+ 
+// Main structure
+@import "_structure.scss";  
+
+@import "header/_header.scss"; 
+@import "nav/_navigaion.scss"; 
+@import "nav/_subnav.scss"; 
+// @import "nav/_logged_in_nav.scss"; 
+@import "nav/_bottom_nav.scss"; 
+ 
+// Include page specific styles
+@import "pages/_startpage.scss";   
+@import "pages/_login.scss";  
+@import "parts/_bottom_controller.scss";  
+
+  
+ 
+// Hide google badge
+.grecaptcha-badge {
+  visibility: hidden;
+} 
